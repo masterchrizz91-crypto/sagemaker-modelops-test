@@ -7,7 +7,7 @@ on:
       - pipelines/**
 env:
   AWS_REGION: eu-central-1
-  SAGEMAKER_PROJECT_NAME: custom-build-deploy
+  SAGEMAKER_PROJECT_NAME: modelops-github-actions
 
 jobs:
   Build:
