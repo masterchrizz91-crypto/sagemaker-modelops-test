@@ -3,8 +3,8 @@ name: DeploySageMakerModel
 on: workflow_dispatch
 
 env:
-  AWS_REGION: us-west-2
-  SAGEMAKER_PROJECT_NAME: custom-build-deploy
+  AWS_REGION: eu-central-1
+  SAGEMAKER_PROJECT_NAME: modelops-github-actions
   EXPORT_TEMPLATE_STAGING_CONFIG: "staging-config-export.json"
   EXPORT_TEMPLATE_PROD_CONFIG: "prod-config-export.json"
 
